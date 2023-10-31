@@ -7,12 +7,14 @@
 /* ----------------- Landing Page Sction Start --------------------------- */
 /* -------------- Landing Page Logo Section Start ------------ */
 .landing_page{
-    background-color: yellow;
+    background:url(./Assets/bg2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     width: 100%;
 }
 .landing_page .logo_wrapper{
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,12 +30,24 @@
     font-weight: 300;
     line-height: 1.2rem;
     text-align: center;
+    color: #01CBC6;
 }
 .landing_page .logo_wrapper h2 span{
-    color: rgb(255, 0, 0);
+    color: #CE1111;
     font-size: 1rem;
     border-bottom: 1px solid red;
 }
 /* -------------- Landing Page Logo Section End ------------- */
 
 /* ------------------ Marquee Section Start ----------------- */
+marquee h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:#67E6DC ;
+}
+marquee h2 span{
+    color: #FF3E4D;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
