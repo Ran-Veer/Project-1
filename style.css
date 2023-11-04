@@ -8,7 +8,7 @@
 /* ----------------- Landing Page Sction Start --------------------------- */
 /* -------------- Landing Page Logo Section Start ------------ */
 .landing_page {
-  background: url(./Assets/bg2.jpg) no-repeat;
+  background: url(./Assets/bg4.png) no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -30,10 +30,11 @@
   font-weight: 400;
   line-height: 1.2rem;
   text-align: center;
-  color: #c7d500;
+  color: #E10A34;
+  text-shadow:1px 1px 3px rgba(255, 247, 0, 0.4);
 }
 .landing_page .logo_wrapper h2 span {
-  color: #ce1111;
+  color: #008175;
   font-size: 1rem;
   /* border-bottom: 1px solid red; */
 }
@@ -43,12 +44,14 @@
 marquee h2 {
   font-size: 1.2rem;
   font-weight: 300;
-  color: #67e6dc;
+  color: #eeff00;
+  text-shadow: 1px 1px 3px rgba(224, 10, 53, 0.9);
 }
 marquee h2 span {
-  color: #ff3e4d;
+  color: #E10A34;
   font-size: 1.2rem;
   font-weight: 400;
+  text-shadow:1px 0 3px rgba(238, 255, 0, 0.7)
 }
 
 /* -------------- Headline text section start --- */
@@ -59,7 +62,7 @@ marquee h2 span {
     /* justify-content: space-between; */
     /* gap: 1%; */
     width: 100%;
-    height:80%;
+    /* height:80%; */
 }
 .headline_container .headline_text .headline_wrapper{
   /* border: 1px solid rgb(238, 255, 0); */
@@ -71,30 +74,34 @@ marquee h2 span {
 }
 .headline_container .headline_text .headline_wrapper h1 {
   /* border: 1px solid yellow; */
-  color: #fbfbfb;
+  color: #4b918a;
   font-weight: 300;
   font-size: 1.7rem;
   margin-bottom: 0.5rem;
   margin-top: 10%;
   cursor: default;
+  text-shadow:1px 2px 4px rgba(49, 49, 49, 0.6)
 }
 .headline_container .headline_text .headline_wrapper h1 span {
-  color: #c7d500;
+  color: #E10A34;
   font-weight: 400;
   font-size: 2rem;
+  text-shadow:1px 2px 4px rgba(255, 0, 0, 0.6)
 }
 .headline_container .headline_text .headline_wrapper h2 {
-  color: #fbfbfb;
+  color: #228e84;
   font-weight: 300;
   font-size: 1.4rem;
   line-height: 1.7rem;
   word-spacing: 0.2rem;
   cursor: default;
+  text-shadow:1px 2px 4px rgba(40, 40, 40, 0.6)
 }
 .headline_container .headline_text .headline_wrapper h2 span {
-  color: #c7d500;
+  color: #E10A34;
   font-weight: 300;
   font-size: 1.5rem;
+  text-shadow:1px 2px 4px rgba(255, 0, 0, 0.6)
 }
 .headline_container .headline_text .headline_wrapper button {
   background-color: #eeff00;
@@ -102,8 +109,13 @@ marquee h2 span {
   border-radius: 15px;
   border: none;
   margin-top: 8%;
-  box-shadow: -1px -1px 10px 5px rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 15px 1px rgba(0, 255, 229, 0.5);
+  transition: ease-in-out .3s;
 }
+.headline_container .headline_text .headline_wrapper button:hover{
+  box-shadow: 0px 0px 15px 1px rgba(255, 0, 0, 0.5);
+}
+
 .headline_container .headline_text .headline_wrapper button i {
   color: #0866ff;
   font-size: 1.2rem;
@@ -145,7 +157,7 @@ marquee h2 span {
   width: 40%;
   padding: .5rem .1rem .5rem 1rem;
   border-radius: 15px;
-  box-shadow:inset 0 0 15px 1px rgba(255, 255, 255, 0.1);
+  box-shadow:inset 0 0 15px 1px rgba(255, 0, 0, 0.2);
   cursor: default;
 }
 .headline_container .headline_text .Landing_adress .loca{
@@ -156,13 +168,15 @@ marquee h2 span {
 }
 .headline_container .headline_text .Landing_adress .loca i{
   font-size: 1.2rem;
-  color: #0866ff;
+  color: #E10A34;
+  text-shadow: 0px 2px 2px  rgba(87, 87, 87, 0.6);
 }
 .headline_container .headline_text .Landing_adress .loca h2{
   font-size: 1.2rem;
   font-weight: 300;
-  color: #eeff00;
+  color: #005249;
   line-height: 2rem;
+  text-shadow: 1px 1px 2px  rgba(87, 87, 87, 0.6);
 }
 /* ------- Heading Text Section End --------- */
 
@@ -170,7 +184,7 @@ marquee h2 span {
 .image_slider_container{
     /* border: 1px solid blue; */
     width: 40%;
-    height: 100%;
+    /* height: 100%; */
     /* margin-left: 3.5%; */
 }
 .swiper {
@@ -182,13 +196,13 @@ marquee h2 span {
 }
 .swiper-wrapper{
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 .swiper-slide {
   background-position: center;
   background-size: contain;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   /* border: 1px solid rgb(0, 17, 255); */
   border-radius: 15px;
   overflow: hidden;
@@ -230,11 +244,11 @@ marquee h2 span {
 @keyframes circle1{
   0%{
     transform: translateY(0px);
-    box-shadow: inset 0 0 15px 2px rgba(159, 220, 18, 0.1);
+    box-shadow: inset 0 0 15px 2px rgba(72, 18, 220, 0.1);
   }
   50%{
     transform: translateY(10px);
-    box-shadow: inset 0 0 50px 2px rgba(238, 255, 0, 0.7);
+    box-shadow: inset 0 0 50px 2px rgba(0, 182, 91, 0.7);
   }
   100%{
     transform: translateY(0px);
@@ -244,15 +258,15 @@ marquee h2 span {
 @keyframes circle2{
   0%{
     transform: translateY(0px);
-    box-shadow: inset 0 0 15px 2px rgba(159, 220, 18, 0.1);
+    box-shadow: inset 0 0 15px 2px rgba(0, 198, 125, 0.2);
   }
   50%{
     transform: translateY(10px);
-    box-shadow: inset 0 0 50px 2px rgba(238, 255, 0, 0.7);
+    box-shadow: inset 0 0 50px 2px rgba(205, 2, 2, 0.7);
   }
   100%{
     transform: translateY(0px);
-    box-shadow: inset 0 0 15px 2px rgba(159, 220, 18, 0.1);
+    box-shadow: inset 0 0 15px 2px rgba(0, 193, 122, 0.2);
   }
 }
 .image_slider_container .card_wrapper .rectangle{
@@ -267,4 +281,9 @@ marquee h2 span {
     overflow: hidden;
     backdrop-filter: blur(15px);
     background: transparent;
+    box-shadow: 1px 1px 15px 2px rgba(255, 0, 0, 0.4);
 }
+
+
+
+/* ------------ Responsive Section ------------- */
