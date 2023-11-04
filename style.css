@@ -11,7 +11,7 @@
   background: url(./Assets/bg4.png) no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 100vh;
+  height: 100vh;
   width: 100%;
 }
 .landing_page .logo_wrapper {
