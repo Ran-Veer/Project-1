@@ -11,7 +11,7 @@
   background: url(./Assets/bg4.png) no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  max-height: 100vh;
   width: 100%;
 }
 .landing_page .logo_wrapper {
@@ -152,7 +152,7 @@ marquee h2 span {
 /* -------------------- */
 .headline_container .headline_text .Landing_adress{
   /* border: 1px solid #67e6dc; */
-  margin-top: 15%;
+  margin-top: 12%;
   margin-left: 4%;
   width: 40%;
   padding: .5rem .1rem .5rem 1rem;
