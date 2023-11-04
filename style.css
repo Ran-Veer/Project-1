@@ -31,11 +31,12 @@
   line-height: 1.2rem;
   text-align: center;
   color: #E10A34;
-  text-shadow:1px 1px 3px rgba(255, 247, 0, 0.4);
+  text-shadow:1px 2px 3px rgba(255, 0, 0, 0.4);
 }
 .landing_page .logo_wrapper h2 span {
   color: #008175;
   font-size: 1rem;
+  text-shadow:1px 2px 3px rgb(0, 128, 115,.5);
   /* border-bottom: 1px solid red; */
 }
 /* -------------- Landing Page Logo Section End ------------- */
@@ -80,7 +81,7 @@ marquee h2 span {
   margin-bottom: 0.5rem;
   margin-top: 10%;
   cursor: default;
-  text-shadow:1px 2px 4px rgba(49, 49, 49, 0.6)
+  text-shadow:1px 2px 4px rgba(75, 145, 138, 0.6);
 }
 .headline_container .headline_text .headline_wrapper h1 span {
   color: #E10A34;
@@ -95,7 +96,7 @@ marquee h2 span {
   line-height: 1.7rem;
   word-spacing: 0.2rem;
   cursor: default;
-  text-shadow:1px 2px 4px rgba(40, 40, 40, 0.6)
+  text-shadow:1px 2px 4px rgba(75, 145, 138, 0.6);
 }
 .headline_container .headline_text .headline_wrapper h2 span {
   color: #E10A34;
@@ -108,7 +109,7 @@ marquee h2 span {
   padding: 0.2rem 1rem;
   border-radius: 15px;
   border: none;
-  margin-top: 8%;
+  margin-top: 7%;
   box-shadow: 0px 0px 15px 1px rgba(0, 255, 229, 0.5);
   transition: ease-in-out .3s;
 }
