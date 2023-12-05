@@ -419,7 +419,7 @@ header nav .nav_logo img{
   }
   .headline_container .headline_text .Landing_adress .loca h2{
     font-size: 1.5rem;
-    line-height: 2.2rem;
+    line-height: 2.5rem;
   }
   /* --------------- Button Section Start ----------- */
   .headline_container .headline_text .headline_wrapper button {
@@ -446,5 +446,20 @@ header nav .nav_logo img{
     font-weight: 500;
     font-size: 1.6rem;
     margin-left: 0.3rem;
+  }
+  .image_slider_container .card_wrapper .rectangle{
+    /* background-color: #0866ff; */
+    width: 65%;
+    height: 90%;
+  }
+  .image_slider_container .card_wrapper .circle1{
+    top:-1%;
+  }
+  .image_slider_container .card_wrapper .circle2{
+    bottom:-9%;
+  }
+  .circle{
+    width: 35px;
+    height: 35px;
   }
 } 
