@@ -7,7 +7,7 @@ var swiper = new Swiper(".mySwiper", {
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
-      },
+    },
     slidesPerView: "auto",
     coverflowEffect: {
         rotate: 0,
@@ -22,3 +22,20 @@ var swiper = new Swiper(".mySwiper", {
     }
 });
 // ------ Swiper Js End -----------------
+
+// --------- Moving Circle Start ----------
+
+const dot = document.querySelector('.circle')
+document.addEventListener("mousemove", (e) => {
+    let x = e.pageX;
+    let y = e.pageY;
+
+    dot.style.top = y + "px";
+    dot.style.left = x + "px";
+    dot.style.display = "block";
+})
+document.addEventListener("mouseout", () => {
+    dot.style.display = "none";
+})
+
+// ------- Moving Circle End -
