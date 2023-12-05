@@ -364,3 +364,87 @@ header nav .nav_logo img{
     line-height: 1.8rem;
   }
 } 
+
+/* ------------------- 1400px to 1920px ------------------ */
+
+@media only screen and (min-width: 1400px) and (max-width:1920px){
+  .landing_page .logo_wrapper img {
+    max-width: 6rem;
+  }
+  .landing_page .logo_wrapper h2 {
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+  }
+  .landing_page .logo_wrapper h2 span {
+    font-size: 1.4rem;
+    /* border-bottom: 1px solid red; */
+  }
+  /* ----------- Marquee Start -------------- */
+  marquee h2 {
+    font-size: 1.4rem;
+  }
+  marquee h2 span {
+    font-size: 1.5rem;
+  }
+  /* ----------- Marquee End -------------- */
+  .landing_page {
+    height: 100vh;
+    width: 100%;
+  }
+  .headline_container .headline_text .headline_wrapper h1 {
+    /* border: 1px solid yellow; */
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    margin-top: 9%;
+  }
+  .headline_container .headline_text .headline_wrapper h1 span {
+    font-size: 2.6rem;
+  }
+  .headline_container .headline_text .headline_wrapper h2 {
+    font-size: 1.9rem;
+    line-height: 2rem;
+    word-spacing: 0.4rem;
+  }
+  .headline_container .headline_text .headline_wrapper h2 span {
+    font-size: 1.7rem;
+  }
+  .headline_container .headline_text .Landing_adress{
+    /* border: 1px solid #67e6dc; */
+    width: 35%;
+  }
+
+  .headline_container .headline_text .Landing_adress .loca i{
+    font-size: 1.6rem;
+    /* margin-top: 1rem; */
+  }
+  .headline_container .headline_text .Landing_adress .loca h2{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+  /* --------------- Button Section Start ----------- */
+  .headline_container .headline_text .headline_wrapper button {
+    background-color: #eeff00;
+    padding: 0.4rem 1.2rem;
+    border-radius: 15px;
+    border: none;
+    margin-top: 7%;
+    box-shadow: 0px 0px 15px 1px rgba(0, 255, 229, 0.5);
+    transition: ease-in-out .3s;
+  }
+  .headline_container .headline_text .headline_wrapper button:hover{
+    box-shadow: 0px 0px 15px 1px rgba(255, 0, 0, 0.5);
+  }
+  
+  .headline_container .headline_text .headline_wrapper button i {
+    color: #0866ff;
+    font-size: 1.5rem;
+    animation: shake 2.5s infinite;
+  }
+  .headline_container .headline_text .headline_wrapper button a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-left: 0.3rem;
+  }
+} 
